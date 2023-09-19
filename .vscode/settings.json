@@ -1,0 +1,9 @@
+{
+    "conventionalCommits.scopes": [
+        "root",
+        "backend",
+        "frontend",
+        "domain"
+    ],
+    "conventionalCommits.lineBreak": "\\n"
+}
