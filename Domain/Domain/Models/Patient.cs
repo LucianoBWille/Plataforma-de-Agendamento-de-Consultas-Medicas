@@ -1,5 +1,7 @@
-namespace Domain;
+using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
+namespace Domain;
 public class Patient
 {
     public long? PatientID { get; set; }

@@ -1,5 +1,7 @@
-namespace Domain;
+using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
+namespace Domain;
 public class Consultation
 {
     public long? ConsultationID { get; set; }

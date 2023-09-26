@@ -1,5 +1,7 @@
-namespace Domain;
+using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
+namespace Domain;
 public class Doctor
 {
     public long? DoctorID { get; set; }
@@ -12,7 +14,7 @@ public class Doctor
     public int? ProfesssionalRegistrationNumber { get; set; }
 
     [Display(Name = "Horários disponíveis")]
-    public List<DataTime>? AvailableHours { get; set; }
+    public List<TimeRange>? AvailableHours { get; set; }
 
     [Display(Name = "Especialidade")]
     public Specialty? Specialty { get; set; }
